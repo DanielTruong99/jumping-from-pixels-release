@@ -1,0 +1,7 @@
+*.pyc
+*cheetahgym/data/*
+*.swp
+*.save
+build/*
+*.so
+*.egg-info

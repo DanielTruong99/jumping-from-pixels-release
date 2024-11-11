@@ -1,0 +1,38 @@
+from gym.envs.registration import register
+
+register(
+    id='CheetahPMTGEnv-v0',
+    entry_point='cheetahgym.envs:CheetahPMTGEnv',
+)
+register(
+    id='Cheetah_CartPMTG-v0',
+    entry_point='cheetahgym.envs:CheetahCartPMTGEnv',
+)
+register(
+    id='Cheetah_PMTGGap-v0',
+    entry_point='cheetahgym.envs:CheetahPMTGGapEnv',
+)
+register(
+    id='Cheetah_PMTGTrot-v0',
+    entry_point='cheetahgym.envs:CheetahPMTGTrotEnv',
+)
+register(
+    id='Cheetah_PMTGTorque-v0',
+    entry_point='cheetahgym.envs:CheetahPMTGTorqueEnv',
+)
+register(
+    id='Cheetah_PMTGFree-v0',
+    entry_point='cheetahgym.envs:CheetahPMTGGaitFreeEnv',
+)
+register(
+    id='Cheetah_PMTGVariable-v0',
+    entry_point='cheetahgym.envs:CheetahPMTGVariableGaitEnv',
+)
+register(
+    id='Cheetah_Base-v0',
+    entry_point='cheetahgym.envs:CheetahBaseEnv',
+)
+register(
+    id='Cheetah_MPC-v0',
+    entry_point='cheetahgym.envs:CheetahMPCEnv',
+)

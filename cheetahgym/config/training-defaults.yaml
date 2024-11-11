@@ -1,0 +1,11 @@
+num_envs: 32
+env_name: 'CheetahMPCEnvReduced4-v0'
+episode_steps: 100
+rew_discount: 0.99
+log_interval: 10
+eval_interval: 10
+max_steps: 10000000
+max_decay_steps: 10000000
+ent_coef: 0.0
+batch_size: 128
+max_grad_norm: 10

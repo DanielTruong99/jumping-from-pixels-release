@@ -1,0 +1,31 @@
+# Generated on Fri Feb  8 19:30:57 2019
+__collection-name__: simulator-parameters
+
+dynamics_dt                      : 0.001
+floor_kd                         : 5000
+floor_kp                         : 500000
+game_controller_deadband         : 0.01
+high_level_dt                    : 0.002
+low_level_dt                     : 0.0002
+simulation_paused                : 0
+simulation_speed                 : 1
+sim_lcm_ttl                      : 0
+sim_state_lcm                    : 1
+use_spring_damper                : 0
+display_heightmap                : 1
+display_traversability           : 1
+display_path_planning            : 0
+display_potential_field          : 0
+vectornav_imu_accelerometer_noise: 0.005
+vectornav_imu_gyro_noise         : 0.005
+vectornav_imu_quat_noise         : 0.003
+rs_localization_position_noise   : 0.004
+rs_localization_orientation_noise: 0.003
+rs_heightmap_noise               : [0.0005, 0.0005, 0.0001]
+go_home                          : 0
+home_pos                         : [0,0,.57]
+home_rpy                         : [0,0,0]
+home_kp_lin                      : 25000
+home_kd_lin                      : 100
+home_kp_ang                      : 1000
+home_kd_ang                      : 10
